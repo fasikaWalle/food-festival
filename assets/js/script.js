@@ -7,6 +7,7 @@ $(document).ready(function() {
     const el = document.createElement(htmlString);
   
     if (typeof attrs === "object") {
+      
       for (let key in attrs) {
         if (key.substring(0, 2) === "on") {
           el.addEventListener(key.substring(2).toLowerCase(), attrs[key]);
@@ -220,14 +221,14 @@ $(document).ready(function() {
     {
       title: "We travel all over the US",
       subtitle: "Check out our schedule!",
-      img: "./assets/img/food-table.jpg",
+      img: "./assets/img/food-table-min.jpg",
       btnText: "View Schedule",
       btnUrl: "schedule.html"
     },
     {
       title: "Our food is seriously the bomb!",
       subtitle: "What are you waiting for?",
-      img: "./assets/img/grill.jpg",
+      img: "./assets/img/grill-min.jpg",
       btnText: "Purchase Tickets",
       btnUrl: "tickets.html"
     },
