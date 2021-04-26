@@ -24,8 +24,14 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^7.0.1",
     "jquery": "^3.6.0",
     "path": "^0.12.7",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack-bundle-analyzer": "^4.4.1"
   }
 }
